@@ -23,6 +23,6 @@ class CarManager:
             new_car.goto(300, random_y)
             self.all_cars.append(new_car)
 
-    def move_cards(self):
+    def move_cars(self):
         for car in self.all_cars:
             car.backward(STARTING_MOVE_DISTANCE)
